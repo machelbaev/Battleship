@@ -15,4 +15,4 @@
 5. In the next window select **Find server**, input host, port, username and click **Connect**
 6. Set up ships layout and play the game
 
-***Note:*** Your opponent should do the same steps
+***Note:*** Your opponent should do steps 3-6
