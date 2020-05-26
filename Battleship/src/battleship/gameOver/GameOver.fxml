@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #afcbcc;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="battleship.gameOver.GameOverController">
+   <children>
+      <Text fx:id="title" fill="#545151" layoutX="66.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You win!" textAlignment="CENTER" wrappingWidth="467.04248046875">
+         <font>
+            <Font name="SF Pro Rounded Regular" size="46.0" />
+         </font>
+      </Text>
+      <Button layoutX="171.0" layoutY="288.0" mnemonicParsing="false" onAction="#backToMain" prefHeight="39.0" prefWidth="258.0" style="-fx-background-color: #7ab8c5; -fx-background-radius: 5;" text="Back to main screen">
+         <font>
+            <Font name="SF Pro Text Regular" size="17.0" />
+         </font>
+      </Button>
+      <Text fx:id="playerStat" layoutX="149.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You did 30 shoots" textAlignment="CENTER" wrappingWidth="302.548828125">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="opponentStat" layoutX="149.0" layoutY="247.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You did 30 shoots" textAlignment="CENTER" wrappingWidth="302.548828125">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

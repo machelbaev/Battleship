@@ -1,0 +1,1 @@
+java —-module-path "your path to javaFX" —-add-modules javafx.controls,javafx.graphics,javafx.fxml -jar Battleship/out/artifacts/Battleship_jar/Battleship.jar

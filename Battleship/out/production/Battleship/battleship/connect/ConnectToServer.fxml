@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="330.0" prefWidth="500.0" style="-fx-background-color: afcbcc;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="battleship.connect.ConnectToServerController">
+   <children>
+      <Button layoutX="31.0" layoutY="250.0" mnemonicParsing="false" onAction="#connect" prefHeight="39.0" prefWidth="215.0" style="-fx-background-color: #7ab8c5; -fx-background-radius: 5;" text="CONNECT">
+         <font>
+            <Font name="SF Pro Text Regular" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="cancelButton" layoutX="250.0" layoutY="250.0" mnemonicParsing="false" onAction="#cancel" prefHeight="39.0" prefWidth="215.0" style="-fx-background-color: #CE8657 #CE8657 #CE8657 #CE8657; -fx-background-radius: 5;" text="CANCEL">
+         <font>
+            <Font name="SF Pro Text Regular" size="17.0" />
+         </font>
+      </Button>
+      <TextField fx:id="hostTextField" layoutX="191.0" layoutY="41.0" prefHeight="27.0" prefWidth="279.0" promptText="Input host" />
+      <Label layoutX="30.0" layoutY="39.0" text="HOST">
+         <font>
+            <Font name="SF Pro Text Regular" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="107.0" text="PORT">
+         <font>
+            <Font name="SF Pro Text Regular" size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="portTextField" layoutX="191.0" layoutY="109.0" prefHeight="27.0" prefWidth="279.0" promptText="Input port number" />
+      <Label layoutX="31.0" layoutY="179.0" text="USERNAME">
+         <font>
+            <Font name="SF Pro Text Regular" size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameTextField" layoutX="191.0" layoutY="181.0" prefHeight="27.0" prefWidth="279.0" promptText="Input your name in game" />
+   </children>
+</AnchorPane>
